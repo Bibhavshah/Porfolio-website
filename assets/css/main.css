@@ -4880,7 +4880,7 @@ a img {
 
 @media only screen and (min-width:550px) {
     .header .site-description {
-        font-size: 40px
+        font-size: 30px
     }
 }
 
@@ -5027,13 +5027,17 @@ a img {
 }
 
 .user-projects {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5rem;
     margin: 20px auto
 }
 
 .user-projects img {
     max-width: 100%;
     height: auto;
-    border-radius: 5px
+    border-radius: 5px;
 }
 
 .user-projects h5 {
